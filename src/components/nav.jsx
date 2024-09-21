@@ -1,5 +1,6 @@
-function nav() {
-    return <div>
+import "../assets/app.css";
+function Nav() {
+    return <div id="navbar">
         <nav>
             <div id="leftnav">
                 <img src="/images/brand_logo.png" alt="" />
@@ -15,4 +16,4 @@ function nav() {
         </nav>
     </div>
 }
-export default nav;
+export default Nav;
